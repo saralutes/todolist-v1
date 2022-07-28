@@ -1,0 +1,20 @@
+<%- include('header'); -%>
+<div class="box heading">
+    <h1> Welcome!</h1>
+    <p>Which list will you make today?</p>
+</div>
+<div class="box">
+    <form class="item" action="/" method="post" value="">
+        <p>Work List</p>
+        <button class="btn" name="list" value="Work" type="submit">+</button>
+    </form>
+    <form class="item" action="/" method="post" value="">
+        <p>Home List</p>
+        <button class="btn" name="list" value="/" type="submit">+</button>
+    </form>
+    <form class="item" action="/" method="post" value="">
+        <p>Errands List</p>
+        <button class="btn" name="list" value="Errands" type="submit">+</button>
+    </form>
+</div>
+<%- include('footer'); -%>
